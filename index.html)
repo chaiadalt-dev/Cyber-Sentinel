@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Sentinel - Forensic Analysis Platform</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 20px; direction: rtl; }
+        .container { max-width: 900px; margin: 0 auto; background: #1e293b; padding: 30px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid #334155; }
+        h1 { text-align: center; color: #38bdf8; }
+        .card { background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 12px; border-right: 5px solid #38bdf8; border: 1px solid #334155; }
+        .btn { display: block; width: 100%; padding: 15px; background: linear-gradient(135deg, #0284c7, #2563eb); color: white; text-align: center; border: none; border-radius: 10px; font-size: 1.1em; font-weight: bold; cursor: pointer; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
+        .status-badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-size: 0.85em; font-weight: bold; background: #065f46; color: #34d399; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Cyber Sentinel Pro</h1>
+        <p style="text-align: center; color: #94a3b8;">פלטפורמה פורנזית מתקדמת לניתוח גיבויים ואיתור רוגלות (APT / Pegasus)</p>
+        
+        <div class="card">
+            <h3>סטטוס מנוע הסריקה</h3>
+            <p>מנוע ה-YARA וזיהוי חתימות האיומים פעילים ומוכנים לניתוח קבצי מערכת.</p>
+            <span class="status-badge">🟢 מערכת מאובטחת</span>
+        </div>
+
+        <div class="card">
+            <h3>העלאת קובץ/גיבוי לסריקה מחקרית</h3>
+            <input type="file" id="scanFile" style="width: 100%; padding: 10px; background: #1e293b; color: white; border: 1px solid #475569; border-radius: 8px;">
+        </div>
+
+        <button class="btn" onclick="alert('מנוע הסריקה מוגדר ומוכן להפעלה מקומית!')">🔍 התחל ניתוח פורנזי עמוק</button>
+    </div>
+</body>
+</html>
